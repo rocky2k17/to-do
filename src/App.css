@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.container{
+  background-color: #61dafb;
+  padding: 10px;
+
+}
+.container div{
+  display: block;
+  float: left;
+  margin: 10px;
+}
+
+.todoInput{
+  margin-bottom: 10px;
+}
+.todoInput Input{
+  width: 500px;
+  border: 1px solid;
+  margin-right: 5px;
+}
+.todoInput Button{
+  width: 100px;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
