@@ -1,26 +1,26 @@
-export const addTodo =()=>({
+export const addTodo =(todo)=>({
     type: "ADD_TODO",
     payload: todo,
 });
 
-export const deleteTodo =()=>({
+export const deleteTodo =(id)=>({
     type: "DELETE_TODO",
     payload: id,
 });
 
-export const updateTodo =()=>({
+export const updateTodo =(todo)=>({
     type: "UPDATE_TODO",
     payload: todo,
 });
-export const addTodoSaga =()=>({
+export const addTodoSaga =(todo)=>({
     type: "ADD_TODO_SAGA",
     payload: todo,
 });
-export const deleteTodoSaga =()=>({
+export const deleteTodoSaga =(todo)=>({
     type: "DELETE_TODO_SAGA",
     payload: todo,
 });
-export const updateTodoSaga =()=>({
+export const updateTodoSaga =(todo)=>({
     type: "UPDATE_TODO_SAGA",
     payload: todo,
 });
